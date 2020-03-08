@@ -1,0 +1,23 @@
+﻿<Window x:Class="CloudImageGenerateTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CloudImageGenerateTool"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="30">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Height="30" HorizontalAlignment="Center">
+            <TextBox x:Name="UploadingTextBox" Text="C:\Users\Yudong\Desktop\kybs0.jpg" Width="300" VerticalContentAlignment="Center"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" VerticalAlignment="Center">
+            <Button x:Name="UploadButton" Content="上传图片" Click="UploadButton_OnClick" Background="Transparent" Height="30" Width="100"></Button>
+        </StackPanel>
+        <TextBox x:Name="UploadUriTextBox" Width="600" Grid.Row="2"></TextBox>
+    </Grid>
+</Window>
