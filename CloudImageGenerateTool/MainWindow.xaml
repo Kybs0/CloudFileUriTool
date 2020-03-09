@@ -13,7 +13,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Height="30" HorizontalAlignment="Center">
-            <TextBox x:Name="UploadingTextBox" Text="C:\Users\Yudong\Desktop\kybs0.jpg" Width="300" VerticalContentAlignment="Center"/>
+            <TextBox x:Name="UploadingTextBox" Text="C:\Users\10167\Desktop\kybs0.jpg" Width="300" VerticalContentAlignment="Center"/>
         </StackPanel>
         <StackPanel Grid.Row="1" VerticalAlignment="Center">
             <Button x:Name="UploadButton" Content="上传图片" Click="UploadButton_OnClick" Background="Transparent" Height="30" Width="100"></Button>
